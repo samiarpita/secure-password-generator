@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Lock } from "lucide-react";
 
 function PasswordGenerator() {
   const [password, setPassword] = useState("");
@@ -50,9 +51,10 @@ function PasswordGenerator() {
       {/* GLASS CARD */}
       <div className="glass p-4 mx-auto" style={{ maxWidth: "500px" }}>
 
-        <h3 className="mb-3 text-center">
-          🔐 Password Generator
-        </h3>
+        <h3 className="mb-3 text-center d-flex justify-content-center align-items-center gap-2 fw-bold">
+  <Lock size={22} color="#00ffcc" />
+  Password Generator
+</h3>
 
         {/* Output */}
         <input
