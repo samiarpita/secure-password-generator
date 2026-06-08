@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <footer className="bg-dark text-center text-white py-3">
+    <footer className="glass text-center py-3 mt-5">
       © 2026 SecureGen
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
